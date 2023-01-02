@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:listDivider="@style/MenuDivider">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_24"
+            android:title="Home"/>
+        <item
+            android:id="@+id/brochure"
+            android:icon="@drawable/ic_outline_map_24"
+            android:title="Brochure"/>
+        <item
+            android:id="@+id/programs_offered"
+            android:icon="@drawable/ic_outline_school_24"
+            android:title="Programs Offered"/>
+        <item
+            android:id="@+id/procedure"
+            android:icon="@drawable/ic_outline_lan_24"
+            android:title="Procedures"/>
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_baseline_calendar_month_24"
+            android:title="Events"/>
+        <item
+            android:id="@+id/projects"
+            android:icon="@drawable/ic_outline_handshake_24"
+            android:title="Projects"/>
+        <item
+            android:id="@+id/announcements"
+            android:icon="@drawable/ic_baseline_campaign_24"
+            android:title="Announcements"/>
+        <item
+            android:id="@+id/manuals"
+            android:icon="@drawable/ic_outline_chrome_reader_mode_24"
+            android:title="Manuals"/>
+    </group>
+
+    <item android:title="My Space" android:id="@+id/communicate_1">
+        <menu>
+            <item
+                android:id="@+id/inbox"
+                android:icon="@drawable/ic_baseline_inbox_24"
+                android:title="Inbox"/>
+            <item
+                android:id="@+id/notification"
+                android:icon="@drawable/ic_outline_notifications_active_24"
+                android:title="Notifications"/>
+            <item
+                android:id="@+id/favorite"
+                android:icon="@drawable/ic_baseline_favorite_border_24"
+                android:title="My Favorites"/>
+        </menu>
+    </item>
+
+    <item android:title="Communicate" android:id="@+id/communicate_2">
+        <menu>
+            <item
+                android:id="@+id/help_support"
+                android:icon="@drawable/ic_outline_support_agent_24"
+                android:title="Help &amp; Support"/>
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/ic_outline_info_24"
+                android:title="About Us"/>
+            <item
+                android:id="@+id/terms_conditions"
+                android:icon="@drawable/ic_outline_feed_24"
+                android:title="Terms and Conditions"/>
+            <item
+                android:id="@+id/privacy_policy"
+                android:icon="@drawable/ic_outline_lock_person_24"
+                android:title="Privacy Policy"/>
+        </menu>
+    </item>
+</menu>
